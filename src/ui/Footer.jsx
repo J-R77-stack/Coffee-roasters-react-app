@@ -4,10 +4,12 @@ import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Logo from "../svg/Logo";
 
 function Footer() {
   return (
     <footer>
+      <Logo />
       <NavLink to="/">Home</NavLink>
       <NavLink to="/about">About us</NavLink>
       <NavLink to="/plan">Create Your Plan</NavLink>

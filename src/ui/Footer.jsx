@@ -1,10 +1,9 @@
 import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
-import { faFacebookSquare } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Logo from "../svg/Logo";
+import FaceBook from "../svg/FaceBook";
+import Twitter from "../svg/Twitter";
+import Instagram from "../svg/Instagram";
 
 function Footer() {
   return (
@@ -14,13 +13,14 @@ function Footer() {
       <NavLink to="/about">About us</NavLink>
       <NavLink to="/plan">Create Your Plan</NavLink>
       <Link to="http://facebook.com">
-        <FontAwesomeIcon icon={faFacebookSquare} />
+        <FaceBook />
       </Link>
       <Link to="http://twitter.com">
-        <FontAwesomeIcon icon={faTwitter} />
+        <Twitter />
       </Link>
+
       <Link to="http://instagram.com">
-        <FontAwesomeIcon icon={faInstagram} />
+        <Instagram />
       </Link>
     </footer>
   );

@@ -1,15 +1,13 @@
 function Home() {
   return (
-    <div>
-      <h1 className=" text-center text-xl text-yellow-500">
-        Great coffee made simple.
-      </h1>
+    <div className="bg-[url('/src/images/image-hero-coffeepress.jpg')]">
+      <h1 className=" text-light-cream ">Great coffee made simple.</h1>
       <br />
-      <p>
+      <span className="text-grey-grey">
         Start your mornings with the world’s best coffees. Try our expertly
         curated artisan coffees from our best roasters delivered directly to
         your door, at your schedule.
-      </p>
+      </span>
     </div>
   );
 }

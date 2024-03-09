@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="bg-[url('/src/images/image-hero-coffeepress.jpg')]">
+    <div className="bg-[url('/src/images/image-hero-coffeepress.jpg')] bg-cover bg-center bg-no-repeat">
       <h1 className=" text-light-cream ">Great coffee made simple.</h1>
       <br />
       <span className="text-grey-grey">

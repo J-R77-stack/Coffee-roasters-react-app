@@ -7,7 +7,7 @@ import Instagram from "../svg/Instagram";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="text-grey-grey uppercase tracking-[5px]">
       <Logo />
       <NavLink to="/">Home</NavLink>
       <NavLink to="/about">About us</NavLink>

@@ -1,11 +1,13 @@
 import Hero from "./Hero";
 import OurCollection from "./OurCollection";
+import WhyChooseUs from "./WhyChooseUs";
 
 function Home() {
   return (
     <div>
       <Hero />,
-      <OurCollection />
+      <OurCollection />,
+      <WhyChooseUs />
     </div>
   );
 }

@@ -9,7 +9,7 @@ function Hero() {
         your door, at your schedule.
       </span>
       <br />
-      <button className="text-white">Create your plan</button>
+      <button className="bg-dark-cyan text-white">Create your plan</button>
     </div>
   );
 }

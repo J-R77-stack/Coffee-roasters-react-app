@@ -1,4 +1,5 @@
 import Hero from "./Hero";
+import HowItWorks from "./HowItWorks";
 import OurCollection from "./OurCollection";
 import WhyChooseUs from "./WhyChooseUs";
 
@@ -7,7 +8,8 @@ function Home() {
     <div>
       <Hero />,
       <OurCollection />,
-      <WhyChooseUs />
+      <WhyChooseUs />,
+      <HowItWorks />
     </div>
   );
 }

@@ -2,6 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: "Fraunces, monospace",
+      barlow: "Barlow, monospace",
+    },
     extend: {
       colors: {
         "dark-cyan": "#0E8784",

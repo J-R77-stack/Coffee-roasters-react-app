@@ -6,6 +6,18 @@ export default {
       sans: "Fraunces, monospace",
       barlow: "Barlow, monospace",
     },
+    fontSize: {
+      h1: "72px",
+      body: "16px",
+      title: "150px",
+      h4: "24px",
+    },
+    lineHeight: {
+      big: "72px",
+      body: "26px",
+      title: "72px",
+      h4: "32px",
+    },
     extend: {
       colors: {
         "dark-cyan": "#0E8784",
@@ -16,6 +28,9 @@ export default {
       },
       backgroundImage: {
         "hero-home-big": "url('/src/images/image-hero-coffeepress.jpg')",
+      },
+      height: {
+        screen: "100dvh",
       },
     },
   },

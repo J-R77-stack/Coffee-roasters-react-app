@@ -5,7 +5,7 @@ function Header() {
   return (
     <header>
       <Logo />
-      <span className="text-grey-grey space-x-4 uppercase ">
+      <span className="text-grey-grey font-barlow space-x-4 uppercase ">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About us</NavLink>
         <NavLink to="/plan">Create Your Plan</NavLink>

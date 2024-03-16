@@ -7,15 +7,15 @@ import Instagram from "../svg/Instagram";
 
 function Footer() {
   return (
-    <footer className=" bg-dark-grey-blue">
+    <footer className=" block items-center bg-dark-grey-blue ">
       <LogoTwo />
 
-      <span className="text-grey-grey space-x-4 uppercase">
+      <span className="space-x-4 font-barlow uppercase text-grey-grey">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About us</NavLink>
         <NavLink to="/plan">Create Your Plan</NavLink>
       </span>
-      <span>
+      <span className="flex justify-center  space-x-4 ">
         <Link to="http://facebook.com">
           <FaceBook />
         </Link>

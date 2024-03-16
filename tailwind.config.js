@@ -11,12 +11,16 @@ export default {
       body: "16px",
       title: "150px",
       h4: "24px",
+      h2: "40px",
+      h3: "32px",
     },
     lineHeight: {
       big: "72px",
       body: "26px",
       title: "72px",
       h4: "32px",
+      h2: "48px",
+      h3: "36px",
     },
     extend: {
       colors: {

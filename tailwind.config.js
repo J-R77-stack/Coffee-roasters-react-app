@@ -29,10 +29,10 @@ export default {
         "pale-orange": "#FDD6BA",
         "light-cream": "#FEFCF7",
         "grey-grey": "#83888F",
+        "teal-200": "#99f6e4",
+        "teal-300": "#5eead4",
       },
-      backgroundImage: {
-        "hero-home-big": "url('/src/images/image-hero-coffeepress.jpg')",
-      },
+
       height: {
         screen: "100dvh",
       },

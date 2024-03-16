@@ -6,9 +6,9 @@ import WhyChooseUs from "./WhyChooseUs";
 function Home() {
   return (
     <div>
-      <Hero />,
-      <OurCollection />,
-      <WhyChooseUs />,
+      <Hero />
+      <OurCollection />
+      <WhyChooseUs />
       <HowItWorks />
     </div>
   );

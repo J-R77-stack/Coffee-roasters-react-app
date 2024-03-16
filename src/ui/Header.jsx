@@ -4,7 +4,7 @@ import Hamburger from "./Hamburger";
 
 function Header() {
   return (
-    <header className="flex items-center justify-between">
+    <header className="flex items-center justify-between pb-8 pt-8">
       <Logo />
       <Hamburger />
       <span className="hidden space-x-4 font-barlow uppercase text-grey-grey sm:block ">

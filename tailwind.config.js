@@ -11,7 +11,7 @@ export default {
       body: "16px",
       title: "150px",
       h4: "24px",
-      h2: "40px",
+      h2: "48px",
       h3: "32px",
     },
     lineHeight: {

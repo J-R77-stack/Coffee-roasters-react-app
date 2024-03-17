@@ -1,7 +1,7 @@
 function HowItWorks() {
   return (
-    <div>
-      <h3 className="text-grey-grey text-h4 font-bold">How it works</h3>
+    <div className="mt-6">
+      <h3 className="text-h4 font-bold text-grey-grey">How it works</h3>
       -------------------------------------------------------
       <div>
         <h1>01</h1>

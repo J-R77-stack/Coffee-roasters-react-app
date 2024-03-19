@@ -1,7 +1,7 @@
 function OurCollection() {
   return (
     <div className="mt-28 grid text-center">
-      <h2 className=" mb-8 inline-block bg-gradient-to-b from-grey-grey  to-white bg-clip-text text-h2 font-bold text-transparent">
+      <h2 className=" mb-8 inline-block bg-gradient-to-b from-grey-grey  to-white bg-clip-text text-h2 font-bold text-transparent sm:text-h1 md:text-[115px]">
         our collection
       </h2>
       <img src="/src/images/desktop/image-gran-espresso.png" alt="" />

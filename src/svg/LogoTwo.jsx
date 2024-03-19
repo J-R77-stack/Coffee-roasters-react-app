@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 function LogoTwo() {
   return (
     <Link to={"/"}>
-      {" "}
-      <div className="my-4">
+      <div className="mt-4 p-12">
         <svg width="237" height="27" xmlns="http://www.w3.org/2000/svg">
           <g fillRule="nonzero" fill="none">
             <path

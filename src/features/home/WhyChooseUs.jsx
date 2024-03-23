@@ -1,6 +1,6 @@
 function WhyChooseUs() {
   return (
-    <div className="mb-[40rem] h-[55rem] rounded-xl bg-[url('/src/images/mobile/bg-steps.png')] px-6 pb-8 pt-16 sm:h-[40rem]">
+    <div className="mb-[44rem] h-[55rem] rounded-xl bg-[url('/src/images/mobile/bg-steps.png')] px-6 pb-8 pt-16 sm:mb-[40rem] sm:h-[30rem]">
       <h3 className="pb-6 text-center text-h3 font-bold leading-h3 text-white">
         Why choose us?
       </h3>

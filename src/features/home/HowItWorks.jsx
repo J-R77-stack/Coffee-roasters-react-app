@@ -1,10 +1,27 @@
 function HowItWorks() {
   return (
     <div className="mt-6">
-      <h3 className="pt-10 text-center text-h4 font-bold text-grey-grey sm:text-left">
+      <h3 className="pt-10 text-center text-h4 font-bold text-grey-grey sm:mb-6 sm:pt-0 sm:text-left">
         How it works
       </h3>
-      <div className="sm:grid sm:grid-cols-3 sm:gap-5 ">
+      <div className="sm:flex">
+        <div className="sm:flex">
+          <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11"></div>
+          <div>
+            <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-48 " />
+          </div>
+        </div>
+        <div className="sm:flex">
+          <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11"></div>
+          <div>
+            <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-44 " />
+          </div>
+        </div>
+        <div className="sm:flex">
+          <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11"></div>
+        </div>
+      </div>
+      <div className="gap-5 sm:grid sm:grid-cols-3 ">
         <div>
           <h1 className=" mt-10 text-center text-h1 font-bold text-pale-orange sm:text-left">
             01
@@ -45,7 +62,7 @@ function HowItWorks() {
           </p>
         </div>
       </div>
-      <button className="mx-16 my-8 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300">
+      <button className="mx-16 my-8 h-16  w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-0">
         Create your plan
       </button>
     </div>

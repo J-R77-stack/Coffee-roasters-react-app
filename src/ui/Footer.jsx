@@ -10,7 +10,7 @@ function Footer() {
     <footer className="mb-10 mt-10 bg-dark-grey-blue">
       <LogoTwo />
 
-      <span className=" grid grid-rows-3 gap-4  text-center font-barlow uppercase text-grey-grey">
+      <span className="grid grid-rows-3 gap-4 text-center font-barlow uppercase  text-grey-grey sm:flex sm:items-center sm:justify-center">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/about">About us</NavLink>
         <NavLink to="/plan">Create Your Plan</NavLink>

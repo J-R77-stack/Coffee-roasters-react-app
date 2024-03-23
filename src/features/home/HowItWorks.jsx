@@ -4,7 +4,7 @@ function HowItWorks() {
       <h3 className="pt-10 text-center text-h4 font-bold text-grey-grey sm:mb-6 sm:pt-0 sm:text-left">
         How it works
       </h3>
-      <div className="sm:flex">
+      <div className="hidden sm:flex">
         <div className="sm:flex">
           <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11"></div>
           <div>

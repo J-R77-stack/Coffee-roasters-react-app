@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function AppLayout() {
   return (
-    <div className=" grid-rows-[auto_1fr_auto grid">
+    <div className=" grid grid-rows-[auto_1fr_auto] ">
       <Header />
 
       <main>

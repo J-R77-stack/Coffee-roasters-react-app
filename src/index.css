@@ -6,11 +6,15 @@ body {
   background-color: #fefcf7;
   padding-left: 50px;
   padding-right: 50px;
+  margin: 0;
+  width: fit-content;
 }
 
 @media (min-width: 1024px) {
   body {
     padding-left: 100px;
     padding-right: 100px;
+    margin: 0;
+    width: fit-content;
   }
 }

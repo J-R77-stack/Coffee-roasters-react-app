@@ -4,7 +4,7 @@ function WhyChooseUs() {
       <h3 className="pb-6 text-center text-h3 font-bold leading-h3 text-white lg:text-h2 lg:leading-h2">
         Why choose us?
       </h3>
-      <p className=" pb-16 text-center font-barlow text-body leading-body text-grey-grey sm:pl-12 sm:pr-12 lg:pl-[12rem] lg:pr-[12rem]">
+      <p className=" pb-16 text-center font-barlow text-body leading-body text-grey-grey sm:pl-12 sm:pr-12 lg:pl-[10rem] lg:pr-[10rem]">
         A large part of our role is choosing which particular coffees will be
         featured in our range. This means working closely with the best coffee
         growers to give you a more impactful experience on every level.

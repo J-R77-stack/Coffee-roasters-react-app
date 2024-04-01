@@ -1,4 +1,4 @@
-import DropdownMenu from "./DropdownMenu";
+import Questions from "./Questions";
 
 function Plan() {
   return (
@@ -57,7 +57,7 @@ function Plan() {
         </div>
       </div>
       <div>
-        <DropdownMenu/>
+        <Questions />
       </div>
     </>
   );

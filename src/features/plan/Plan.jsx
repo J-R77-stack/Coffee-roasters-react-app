@@ -1,3 +1,5 @@
+import DropdownMenu from "./DropdownMenu";
+
 function Plan() {
   return (
     <>
@@ -53,6 +55,9 @@ function Plan() {
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        <DropdownMenu/>
       </div>
     </>
   );

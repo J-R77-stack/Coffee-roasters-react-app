@@ -7,7 +7,7 @@ import Instagram from "../svg/Instagram";
 
 function Footer() {
   return (
-    <footer className="mb-10 mt-10 bg-dark-grey-blue lg:m-0 lg:mb-10 lg:flex lg:items-center lg:justify-between lg:p-6">
+    <footer className="mb-10 mt-10 bg-dark-grey-blue lg:m-0 lg:mb-10 lg:mt-20 lg:flex lg:items-center lg:justify-between lg:p-6">
       <LogoTwo />
 
       <span className="grid grid-rows-3 gap-4 text-center font-barlow uppercase  text-grey-grey sm:flex sm:items-center sm:justify-center">

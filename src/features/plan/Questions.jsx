@@ -8,7 +8,7 @@ function Questions() {
         option1="Capsule"
         info1=" Compatible with Nespresso systems and similar brewers"
         option2="Filter"
-        info2=" Filter For pour over or drip methods like Aeropress, Chemex, and V60"
+        info2=" For pour over or drip methods like Aeropress, Chemex, and V60"
         option3="Expresso"
         info3=" Dense and finely ground beans for an intense, flavorful experience"
       />

@@ -84,7 +84,7 @@ function Plan() {
             “I drink coffee as , with a type of bean. ground ala , sent to me .”
           </h3>
         </div>
-        <button className="mx-16 my-8 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-0 lg:mx-[2rem] ">
+        <button className="mx-16 my-8 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-60 ">
           Create my plan!
         </button>
       </div>

@@ -1,4 +1,5 @@
 import Questions from "./Questions";
+import { QUESTION } from "./question";
 
 function Plan() {
   return (
@@ -80,9 +81,7 @@ function Plan() {
           <h4 className=" mb-4 text-h4 leading-h4 text-grey-grey">
             ORDER SUMMARY
           </h4>
-          <h3 className="text-h3 font-bold leading-h3 text-light-cream">
-            “I drink coffee as , with a type of bean. ground ala , sent to me .”
-          </h3>
+          <h3 className="text-h3 font-bold leading-h3 text-light-cream"></h3>
         </div>
         <button className="mx-16 my-8 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-60 lg:mx-0 lg:my-8">
           Create my plan!

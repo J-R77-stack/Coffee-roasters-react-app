@@ -1,5 +1,6 @@
 import Questions from "./Questions";
-import { QUESTION } from "./question";
+import Products from "./Products.jsx";
+import AccordianQuestion from "./AccordianQuestion.jsx";
 
 function Plan() {
   return (
@@ -77,6 +78,8 @@ function Plan() {
       </div>
       <div>
         <Questions />
+        <AccordianQuestion />
+        <Products />
         <div className="grid grid-rows-1 rounded-xl bg-[url('/src/images/mobile/bg-steps.png')] bg-cover bg-center bg-no-repeat p-8 text-left">
           <h4 className=" mb-4 text-h4 leading-h4 text-grey-grey">
             ORDER SUMMARY

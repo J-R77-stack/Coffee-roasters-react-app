@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function Accordian(props) {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="item relative flex w-[340px] flex-col items-center rounded-xl  sm:w-full">
       <button

@@ -6,11 +6,14 @@ import { QUESTION5 } from "./question5";
 import Arrow from "../../svg/Arrow";
 import ArrowUp from "../../svg/ArrowUp";
 import { useState } from "react";
+import Modal from "./Modal";
 
 /* eslint-disable react/prop-types */
 
 function Products(props) {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [ModalOpen, setModalOpen] = useState(false);
 
   const [count, setCount] = useState("");
   const [count2, setCount2] = useState("");
@@ -174,9 +177,21 @@ function Products(props) {
           me <span className="text-dark-cyan"> {count5} </span>.”
         </h4>
       </div>
-      <button className="mx-16 my-8 mt-10 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-0 lg:mx-[2rem] ">
-        Create my plan!
-      </button>
+      <>
+        <div>
+          <button
+            onClick={() => setModalOpen(true)}
+            className="mx-16 my-8 mt-10 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-0 lg:mx-[2rem] "
+          >
+            Create my plan!
+          </button>
+          <Modal open={ModalOpen} onClose={() => setModalOpen(false)}>
+            <p size={56} className="mx-auto text-red-500">
+              X
+            </p>
+          </Modal>
+        </div>
+      </>
     </>
   );
 }

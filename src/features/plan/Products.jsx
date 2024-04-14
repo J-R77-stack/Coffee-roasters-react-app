@@ -174,7 +174,8 @@ function Products(props) {
           <span className="text-dark-cyan"> {count2} </span> type of bean.
           <span className="text-dark-cyan"> {count3} </span>
           ground ala <span className="text-dark-cyan"> {count4} </span>, sent to
-          me <span className="text-dark-cyan"> {count5} </span>.”
+          me <span className="text-dark-cyan"> {count5}</span>
+          .”
         </h4>
       </div>
       <>
@@ -186,9 +187,35 @@ function Products(props) {
             Create my plan!
           </button>
           <Modal open={ModalOpen} onClose={() => setModalOpen(false)}>
-            <p size={56} className="mx-auto text-red-500">
-              X
-            </p>
+            <div className=" grid h-[560px] w-[360px] grid-rows-4  p-0 text-left font-barlow font-bold text-light-cream">
+              <div className=" h-[100px] rounded-t-xl bg-dark-grey-blue p-8 ">
+                <h3 className="text-h3 font-bold leading-h3">Order Summary</h3>
+              </div>
+              <div className="pl-7 pr-7">
+                <h4 className=" text-h4 font-bold leading-h4  text-grey-grey ">
+                  “I drink my coffee as
+                  <span className="text-dark-cyan"> {count} </span>, with a
+                  <span className="text-dark-cyan"> {count2} </span> type of
+                  bean.
+                  <span className="text-dark-cyan"> {count3} </span>
+                  ground ala <span className="text-dark-cyan"> {count4} </span>,
+                  sent to me <span className="text-dark-cyan"> {count5} </span>
+                  .”
+                </h4>
+              </div>
+              <div className="mt-6 pl-7 pr-7">
+                <p className="text-body leading-body text-grey-grey ">
+                  Is this correct? You can proceed to checkout or go back to
+                  plan selection if something is off. Subscription discount
+                  codes can also be redeemed at the checkout.{" "}
+                </p>
+              </div>
+              <div className="mx-auto my-auto">
+                <button className=" h-16 w-[310px] rounded-xl bg-dark-cyan text-h4 font-bold text-white hover:bg-teal-300 ">
+                  Checkout $/month
+                </button>
+              </div>
+            </div>
           </Modal>
         </div>
       </>

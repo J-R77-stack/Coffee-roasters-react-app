@@ -7,7 +7,7 @@ function Modal({ open, onClose, children }) {
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className={`rounded-xl bg-white p-6 shadow transition-all ${open ? "scale-100 opacity-100" : "scale-125 opacity-0"}`}
+        className={`rounded-xl bg-light-cream shadow transition-all ${open ? "scale-100 opacity-100" : "scale-125 opacity-0"}`}
       >
         {children}
       </div>

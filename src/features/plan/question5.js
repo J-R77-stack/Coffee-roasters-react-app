@@ -14,7 +14,7 @@ export const QUESTION5 = [
   {
     id: 15,
     option5: "Every Month",
-    price5: 22.5,
+    price: 22.5,
     info5: "per shipment. Includes free priority shipping.",
   },
 ];

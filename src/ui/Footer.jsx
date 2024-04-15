@@ -15,15 +15,15 @@ function Footer() {
         <NavLink to="/about">About us</NavLink>
         <NavLink to="/plan">Create Your Plan</NavLink>
       </span>
-      <span className="mb-10 mt-10 flex justify-center gap-8  ">
-        <Link to="http://facebook.com">
+      <span className=" mb-10  mt-10 flex justify-center gap-8 ">
+        <Link to="http://facebook.com" target="blank">
           <FaceBook />
         </Link>
-        <Link to="http://twitter.com">
+        <Link to="http://twitter.com" target="blank">
           <Twitter />
         </Link>
 
-        <Link to="http://instagram.com">
+        <Link to="http://instagram.com" target="blank">
           <Instagram />
         </Link>
       </span>

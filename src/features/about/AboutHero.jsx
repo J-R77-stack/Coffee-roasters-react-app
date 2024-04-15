@@ -2,10 +2,10 @@ function AboutHero() {
   return (
     <>
       <div className="grid grid-rows-2 rounded-xl  bg-[url('/src/images/mobile/image-hero-whitecup.jpg')] bg-cover bg-center bg-no-repeat p-4 pb-16 pt-12 text-center sm:bg-[url('/src/images/tablet/image-hero-whitecup.jpg')] sm:p-8 sm:text-left lg:bg-[url('/src/images/desktop/image-hero-whitecup.jpg')] lg:p-16">
-        <h3 className="mt-20 text-h3 font-bold leading-h3 text-light-cream sm:mb-8">
+        <h3 className="mt-20 text-h3 font-bold leading-h3 text-light-cream sm:mb-8 xl:text-h2">
           About us
         </h3>
-        <p className="font-barlow text-body leading-body text-light-cream sm:pr-40 lg:pr-[350px]">
+        <p className="font-barlow text-body leading-body text-light-cream sm:pr-40 lg:pr-[350px] xl:pr-[650px]">
           Coffeeroasters began its journey of exotic discovery in 1999,
           highlighting stories of coffee from around the world. We have since
           been dedicated to bring the perfect cup - from bean to brew - in every
@@ -13,7 +13,7 @@ function AboutHero() {
         </p>
       </div>
       <div className="sm:grid sm:grid-cols-2">
-        <div className=" mt-32 h-96 rounded-xl bg-[url('/src/images/mobile/image-commitment.jpg')] bg-cover bg-center bg-no-repeat sm:h-[560px] sm:bg-[url('/src/images/tablet/image-commitment.jpg')] lg:sm:bg-[url('/src/images/desktop/image-commitment.jpg')] lg:h-[500px] lg:w-[400px]"></div>
+        <div className=" mt-32 h-96 rounded-xl bg-[url('/src/images/mobile/image-commitment.jpg')] bg-cover bg-center bg-no-repeat sm:h-[560px] sm:bg-[url('/src/images/tablet/image-commitment.jpg')] lg:sm:bg-[url('/src/images/desktop/image-commitment.jpg')] lg:h-[500px] lg:w-[400px] xl:ml-[80px]"></div>
         <div className="sm:ml-10">
           <h3 className="mt-20 text-center text-h3 font-bold leading-h3 text-black sm:mt-36 sm:text-left lg:mt-48">
             Our commitment

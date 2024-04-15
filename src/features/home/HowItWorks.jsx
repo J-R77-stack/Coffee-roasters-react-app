@@ -8,13 +8,13 @@ function HowItWorks() {
         <div className="sm:flex">
           <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11 "></div>
           <div>
-            <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-48 lg:w-[15rem]" />
+            <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-48 lg:w-[15rem] xl:w-[21rem]" />
           </div>
         </div>
         <div className="sm:flex">
           <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11"></div>
           <div>
-            <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-44 lg:w-[15rem]" />
+            <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-44 lg:w-[15rem] xl:w-[21rem]" />
           </div>
         </div>
         <div className="sm:flex">
@@ -65,9 +65,11 @@ function HowItWorks() {
           </p>
         </div>
       </div>
-      <button className="mx-16 my-8 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-0 lg:mx-[2rem] ">
-        Create your plan
-      </button>
+      <a href="/plan">
+        <button className="mx-16 my-8 h-16 w-52 rounded-xl bg-dark-cyan font-bold text-white hover:bg-teal-300 sm:mx-0 lg:mx-[2rem] ">
+          Create your plan
+        </button>
+      </a>
     </div>
   );
 }

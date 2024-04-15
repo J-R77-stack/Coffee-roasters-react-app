@@ -38,7 +38,7 @@ function Products(props) {
               <div key={question.id}>
                 <button
                   onClick={() => setCount(() => question.option1)}
-                  className="rounded-xl bg-zinc-200 p-5 text-left hover:bg-pale-orange focus:bg-dark-cyan  sm:h-[240px] "
+                  className=" rounded-xl bg-zinc-200 p-5 text-left after:bg-dark-cyan  hover:bg-pale-orange focus:bg-dark-cyan sm:h-[240px] "
                 >
                   <h4 className="pb-2 text-h4 font-bold text-black">
                     {question.option1}
@@ -210,9 +210,10 @@ function Products(props) {
                   codes can also be redeemed at the checkout.{" "}
                 </p>
               </div>
+
               <div className="mx-auto my-auto">
                 <button className=" h-16 w-[310px] rounded-xl bg-dark-cyan text-h4 font-bold text-white hover:bg-teal-300 ">
-                  Checkout $/month
+                  Checkout $14.00/month
                 </button>
               </div>
             </div>

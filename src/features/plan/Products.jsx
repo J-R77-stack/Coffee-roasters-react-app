@@ -38,7 +38,7 @@ function Products(props) {
               <div key={question.id}>
                 <button
                   onClick={() => setCount(() => question.option1)}
-                  className=" rounded-xl bg-zinc-200 p-5 text-left after:bg-dark-cyan  hover:bg-pale-orange focus:bg-dark-cyan sm:h-[240px] "
+                  className=" rounded-xl bg-zinc-200 p-5 text-left hover:bg-pale-orange focus:bg-dark-cyan sm:h-[240px] "
                 >
                   <h4 className="pb-2 text-h4 font-bold text-black">
                     {question.option1}

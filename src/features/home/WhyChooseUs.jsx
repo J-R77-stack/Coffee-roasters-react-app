@@ -31,11 +31,7 @@ function WhyChooseUs() {
         </div>
         <div className="rounded-xl bg-dark-cyan p-10 pt-16 text-center sm:grid sm:grid-cols-2 sm:p-0 sm:pb-10 sm:text-left lg:block lg:w-1/3 lg:px-3 lg:pt-14 lg:text-center">
           <div className="relative flex">
-            <img
-              src="/src/images/desktop/svg/icon-gift.svg"
-              alt="gift"
-              className="m-auto"
-            />
+            <img src="/icon-gift.svg" alt="gift" className="m-auto" />
           </div>
           <div>
             <h4 className="pb-5 pt-12 text-h4 font-bold  leading-h4 text-white sm:pb-2">
@@ -49,11 +45,7 @@ function WhyChooseUs() {
         </div>
         <div className="rounded-xl bg-dark-cyan p-12 pt-16 text-center sm:grid sm:grid-cols-2 sm:p-0 sm:pb-10 sm:text-left lg:block lg:w-1/3 lg:px-3 lg:pt-14 lg:text-center">
           <div className="relative flex">
-            <img
-              src="/src/images/desktop/svg/icon-truck.svg"
-              alt="truck"
-              className="m-auto"
-            />
+            <img src="/icon-truck.svg" alt="truck" className="m-auto" />
           </div>
           <div>
             <h4 className="pb-5 pt-12 text-h4 font-bold  leading-h4 text-white sm:pt-14">

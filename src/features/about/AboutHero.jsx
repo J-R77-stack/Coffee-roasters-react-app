@@ -56,11 +56,7 @@ function AboutHero() {
       </div>
       <div className="grid grid-rows-3 lg:m-10 lg:flex">
         <div>
-          <img
-            src="/src/images/desktop/svg/illustration-uk.svg"
-            alt=""
-            className="m-auto lg:m-0"
-          />
+          <img src="/illustration-uk.svg" alt="" className="m-auto lg:m-0" />
           <h3 className="mb-5 mt-10 text-center text-h3 font-bold leading-h3 lg:text-left">
             United Kingdom
           </h3>
@@ -70,7 +66,7 @@ function AboutHero() {
         </div>
         <div>
           <img
-            src="/src/images/desktop/svg/illustration-canada.svg"
+            src="/illustration-canada.svg"
             alt=""
             className="m-auto lg:m-0"
           />
@@ -83,7 +79,7 @@ function AboutHero() {
         </div>
         <div>
           <img
-            src="/src/images/desktop/svg/illustration-australia.svg"
+            src="/illustration-australia.svg"
             alt=""
             className="m-auto lg:m-0"
           />

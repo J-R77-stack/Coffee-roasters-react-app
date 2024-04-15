@@ -14,7 +14,7 @@ function WhyChooseUs() {
         <div className="rounded-xl bg-dark-cyan p-12 pt-16 text-center sm:grid sm:grid-cols-2 sm:p-0 sm:pb-10 sm:text-left lg:block lg:w-1/3 lg:px-3 lg:pt-14 lg:text-center">
           <div className="relative flex">
             <img
-              src="/src/images/desktop/svg/icon-coffee-bean.svg"
+              src="/icon-coffee-bean.svg"
               alt="coffee bean"
               className="m-auto "
             />

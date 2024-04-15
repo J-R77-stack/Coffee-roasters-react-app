@@ -17,7 +17,7 @@ function MainNavigation() {
         <nav
           className={`${isOpen ? "block" : "hidden"} w-full text-center sm:flex sm:w-auto sm:items-center`}
         >
-          <ul className="text-h4 font-bold text-black sm:flex sm:justify-between sm:font-barlow sm:text-body sm:uppercase sm:text-grey-grey ">
+          <ul className="text-h4  text-black sm:flex sm:justify-between sm:font-barlow sm:text-body sm:uppercase sm:text-grey-grey ">
             <li className="block py-2 sm:px-5">
               <NavLink to="/">Home</NavLink>
             </li>

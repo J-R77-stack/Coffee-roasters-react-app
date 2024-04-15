@@ -2,7 +2,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./features/home/Home";
 import Cart from "./features/cart/Cart";
 import Plan from "./features/plan/Plan";
-import About from "./features/about/About";
+import AboutOne from "./features/about/AboutOne";
 import AppLayout from "./ui/AppLayout";
 import Error from "./ui/Error";
 
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/about",
-        element: <About />,
+        element: <AboutOne />,
         errorElement: <Error />,
       },
       { path: "/cart", element: <Cart />, errorElement: <Error /> },

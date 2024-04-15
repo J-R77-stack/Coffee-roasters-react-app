@@ -1,6 +1,6 @@
 import AboutHero from "./AboutHero";
 
-function About() {
+function AboutOne() {
   return (
     <div>
       <AboutHero />
@@ -8,4 +8,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutOne;

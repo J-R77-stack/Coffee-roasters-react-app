@@ -5,8 +5,7 @@ function OurCollection() {
         our collection
       </h2>
       <div className=" sm:relative sm:grid sm:grid-cols-2 sm:pl-10 sm:pr-10 sm:pt-28 lg:grid lg:grid-cols-4 lg:grid-rows-1  lg:pr-0 lg:pt-40 xl:pt-56">
-        <img src="/src/images/desktop/image-hero-whitecup.jpg" alt="" />
-
+        <img src="/src/images/desktop/image-gran-espresso.png" alt="" />
         <div className="sm:text-left">
           <h4 className="mb-4 mt-8 text-h4 font-bold leading-h4 ">
             Gran Espresso
@@ -17,7 +16,7 @@ function OurCollection() {
           </p>
         </div>
 
-        <img src="/src/images/desktop/image-planalto.png" alt="" />
+        <img src="/public/image-planalto.png" alt="" />
 
         <div className="sm:text-left">
           <h4 className="mb-4 mt-8 text-h4 font-bold leading-h4">Planalto</h4>

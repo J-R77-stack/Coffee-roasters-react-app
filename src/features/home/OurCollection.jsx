@@ -16,7 +16,7 @@ function OurCollection() {
           </p>
         </div>
 
-        <img src="/public/image-planalto.png" alt="" />
+        <img src="/image-planalto.png" alt="" />
 
         <div className="sm:text-left">
           <h4 className="mb-4 mt-8 text-h4 font-bold leading-h4">Planalto</h4>

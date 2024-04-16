@@ -42,8 +42,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/coffeeroasters-subscription-site-using-react-and-tailwind-SZ9ze-7OA9)
-- Live Site URL: [Add live site URL here](https://coffee-roasters-react-app.vercel.app/)
+- Solution URL: [Coffee Roasters app on Frontend Mentor](https://www.frontendmentor.io/solutions/coffeeroasters-subscription-site-using-react-and-tailwind-SZ9ze-7OA9)
+- Live Site URL: [Live site for Coffee Roasters app ](https://coffee-roasters-react-app.vercel.app/)
 
 ## My process
 

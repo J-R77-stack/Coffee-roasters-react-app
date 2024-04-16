@@ -2,10 +2,10 @@ function AboutHero() {
   return (
     <>
       <div className="grid grid-rows-2 rounded-xl  bg-[url('/src/images/mobile/image-hero-whitecup.jpg')] bg-cover bg-center bg-no-repeat p-4 pb-16 pt-12 text-center sm:bg-[url('/src/images/tablet/image-hero-whitecup.jpg')] sm:p-8 sm:text-left lg:bg-[url('/src/images/desktop/image-hero-whitecup.jpg')] lg:p-16">
-        <h3 className="mt-20 text-h3 font-bold leading-h3 text-light-cream sm:mb-8 xl:text-h2">
+        <h3 className="mt-20 text-h3 font-bold leading-h3 text-light-cream sm:mb-8 xl:text-h2 2xl:text-h1 ">
           About us
         </h3>
-        <p className="font-barlow text-body leading-body text-light-cream sm:pr-40 lg:pr-[350px] xl:pr-[650px]">
+        <p className="font-barlow text-body leading-body text-light-cream sm:pr-40 lg:pr-[350px] xl:pr-[650px] 2xl:pr-[750px]">
           Coffeeroasters began its journey of exotic discovery in 1999,
           highlighting stories of coffee from around the world. We have since
           been dedicated to bring the perfect cup - from bean to brew - in every
@@ -13,12 +13,12 @@ function AboutHero() {
         </p>
       </div>
       <div className="sm:grid sm:grid-cols-2">
-        <div className=" mt-32 h-96 rounded-xl bg-[url('/src/images/mobile/image-commitment.jpg')] bg-cover bg-center bg-no-repeat sm:h-[560px] sm:bg-[url('/src/images/tablet/image-commitment.jpg')] lg:sm:bg-[url('/src/images/desktop/image-commitment.jpg')] lg:h-[500px] lg:w-[400px] xl:ml-[80px]"></div>
+        <div className=" mt-32 h-96 rounded-xl bg-[url('/src/images/mobile/image-commitment.jpg')] bg-cover bg-center bg-no-repeat sm:h-[560px] sm:bg-[url('/src/images/tablet/image-commitment.jpg')] lg:sm:bg-[url('/src/images/desktop/image-commitment.jpg')] lg:h-[500px] lg:w-[400px] xl:ml-[80px] 2xl:ml-[100px] 2xl:h-[600px] 2xl:w-[500px]"></div>
         <div className="sm:ml-10">
           <h3 className="mt-20 text-center text-h3 font-bold leading-h3 text-black sm:mt-36 sm:text-left lg:mt-48">
             Our commitment
           </h3>
-          <p className="mt-10 pb-32 text-center font-barlow text-body leading-body text-grey-grey sm:mt-4 sm:text-left">
+          <p className="mt-10 pb-32 text-center font-barlow text-body leading-body text-grey-grey sm:mt-4 sm:text-left 2xl:pr-52">
             We’re built on a simple mission and a commitment to doing good along
             the way. We want to make it easy for you to discover and brew the
             world’s best coffee at home. It all starts at the source. To locate

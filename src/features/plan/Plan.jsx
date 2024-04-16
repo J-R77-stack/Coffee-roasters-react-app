@@ -3,11 +3,11 @@ import AccordianQuestion from "./AccordianQuestion.jsx";
 function Plan() {
   return (
     <>
-      <div className="grid grid-rows-2 rounded-xl bg-[url('/src/images/mobile/image-hero-blackcup.jpg')] bg-cover bg-center bg-no-repeat pb-16 pt-10 text-center sm:bg-[url('/src/images/tablet/image-hero-blackcup.jpg')] sm:pl-6 sm:text-left lg:bg-[url('/src/images/desktop/image-hero-blackcup.jpg')]">
-        <h2 className="lg:leading-h1 mt-20 pl-3 pr-3 text-h2 font-bold leading-h2 text-light-cream lg:text-h1 xl:pl-[50px]">
+      <div className="grid grid-rows-2 rounded-xl bg-[url('/src/images/mobile/image-hero-blackcup.jpg')] bg-cover bg-center bg-no-repeat pb-16 pt-10 text-center sm:bg-[url('/src/images/tablet/image-hero-blackcup.jpg')] sm:pl-6 sm:text-left lg:bg-[url('/src/images/desktop/image-hero-blackcup.jpg')] 2xl:h-[500px]">
+        <h2 className="lg:leading-h1 mt-20 pl-3 pr-3 text-h2 font-bold leading-h2 text-light-cream lg:text-h1 xl:pl-[50px] 2xl:text-[100px]">
           Create a plan
         </h2>
-        <p className="mt-4 pb-10 pl-4 pr-4 font-barlow text-body leading-body text-grey-grey sm:pr-52 lg:mt-6 lg:pr-96 xl:pl-[50px] xl:pr-[700px]">
+        <p className="mt-4 pb-10 pl-4 pr-4 font-barlow text-body leading-body text-grey-grey sm:pr-52 lg:mt-6 lg:pr-96 xl:pl-[50px] xl:pr-[700px] 2xl:mt-0 2xl:pr-[800px]">
           Build a subscription plan that best fits your needs. We offer an
           assortment of the best artisan coffees from around the globe delivered
           fresh to your door.
@@ -18,13 +18,13 @@ function Plan() {
           <div className="sm:flex">
             <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11 "></div>
             <div>
-              <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-40 lg:w-[16rem] xl:w-[22rem]" />
+              <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-40 lg:w-[16rem] xl:w-[22rem] 2xl:w-[28rem]" />
             </div>
           </div>
           <div className="sm:flex">
             <div className="rounded-full border-2 border-solid border-dark-cyan sm:h-11 sm:w-11"></div>
             <div>
-              <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-[155px] lg:w-[15rem] xl:w-[22rem]" />
+              <hr className="border-2 border-solid border-pale-orange sm:mt-5 sm:w-[155px] lg:w-[15rem] xl:w-[22rem] 2xl:w-[26rem]" />
             </div>
           </div>
           <div className="sm:flex">
